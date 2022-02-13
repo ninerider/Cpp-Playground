@@ -4,8 +4,7 @@
             "name": "GCC",
             "includePath": [
                 "C:/msys64/mingw64/include",
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/inc/**"
+                "${workspaceFolder}/inc"
             ],
             "defines": [
                 "_DEBUG",

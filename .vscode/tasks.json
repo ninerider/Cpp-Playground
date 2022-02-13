@@ -3,14 +3,14 @@
         {
             "type": "cppbuild",
             "label": "C/C++: Build active file.",
-            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "command": "C:\\msys64\\mingw64\\bin\\clang++.exe",
             "args": [
-                "-std=c++20",
-                "-fmodules-ts",
+                "-std=c++11",
+               // "-fno-elide-constructors",
                 "-g",
                 "${fileDirname}/**.cpp",
                 "-I",
-                "${workspacename}/inc/**",
+                "${workspaceFolder}/inc/",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
